@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { buffer, fromEvent, interval } from 'rxjs';
 
-
-
 @Component({
   selector: 'app-buffer',
   templateUrl: './buffer.component.html',

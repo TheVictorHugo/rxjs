@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BufferComponent } from './buffer/buffer.component';
 import { ToArrayComponent } from './to-array/to-array.component';
+import { TheHeroEditorComponent } from './the-hero-editor/the-hero-editor.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     BufferComponent,
-    ToArrayComponent
+    ToArrayComponent,
+    TheHeroEditorComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
