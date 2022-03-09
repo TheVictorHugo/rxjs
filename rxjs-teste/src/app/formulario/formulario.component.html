@@ -1,0 +1,23 @@
+
+<div class="jumbotron text-center">
+    <h1 class="display-5">
+        Angular 13 Reactive Forms Tutorial
+    </h1>
+</div>
+
+<div class="container">
+    <div class="row custom-wrapper">
+        <div class="col-md-12">
+            <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+                <div class="group-gap">
+                    <div formGroupName="fullName">
+                        <div class="mb-3">
+                            <label [ngClass]="{'error' : submitted }"></label>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

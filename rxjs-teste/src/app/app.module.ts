@@ -9,6 +9,8 @@ import { TheHeroEditorComponent } from './the-hero-editor/the-hero-editor.compon
 import { FormsModule } from '@angular/forms';
 import { HerosComponent } from './heros/heros.component';
 import { OperatosRxjsComponent } from './operatos-rxjs/operatos-rxjs.component';
+import { FormularioComponent } from './formulario/formulario.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { OperatosRxjsComponent } from './operatos-rxjs/operatos-rxjs.component';
     ToArrayComponent,
     TheHeroEditorComponent,
     HerosComponent,
-    OperatosRxjsComponent
+    OperatosRxjsComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
